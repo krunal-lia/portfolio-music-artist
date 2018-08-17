@@ -1,0 +1,184 @@
+
+
+@media only screen and (max-width: 1200px) {
+
+    .row {margin: 0 2%;}
+    
+    .summary {
+        width: 85%;
+        margin-left: 5%;
+    }
+    
+    h1 {
+        font-size: 350%;
+    }
+
+    .tagline {
+        font-size: 250%;
+    }
+    .social {
+        margin-left: 10%;
+    }
+
+    .social ion-icon {margin-right: 15px;}
+
+    .cast a p {
+        width: 55%;
+        margin-left: 22.5%;
+    }
+}
+
+@media only screen and (max-width: 1023px) {
+
+    body {font-size: 18px;}
+    section {padding: 60px 0;}
+
+    .section-concerts .col {
+        width: 100%;
+        margin: 0 1% 1% 0;
+    }
+
+    .magazine-section {
+        width: 100%;
+    }
+
+    .video-section {width: 100%;}
+    video {width: 70%;}
+
+    .cast {
+        width: 100%;
+        margin-left: 0;
+    }
+
+    .social ion-icon {margin-right: 10px;}
+    .cast-photo {width: 110px;}
+
+    .cast a p {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+
+}
+
+@media only screen and (max-width: 767px) {
+
+    section {padding: 30px 0;}
+    /*.main-nav {display: none;} */
+   
+
+    .menu {
+        display: initial;
+    }
+
+    .main-nav {
+        display: none;
+        float: left;
+        margin-left: 25px;
+        margin-top: 40px;
+    }
+    .main-nav li {
+        display: block;
+        padding-bottom: 10px;
+    }
+
+    .main-nav li:last-child {
+        padding-bottom: 0;
+    }
+    .sticky .menu,
+    .sticky .close {
+        color: #555;
+        margin-top: 10px;
+    }
+    .sticky .main-nav {
+        margin-top: 15px;
+        margin-left: 20px;
+    }
+
+    .close {
+        display: none;
+    }
+
+    .sticky .main-nav li a:link,
+    .sticky .main-nav li a:visited{
+        border: 0;
+    }
+
+    h1 {font-size: 600%;}
+    h2 {font-size: 170%}
+    .tagline {font-size: 200%}
+    h5 {font-size: 150%;}
+    .logo {height: 30px;}
+
+    video {width: 85%;}
+
+    .section-concerts p {  
+        font-weight: 400;
+        font-size: 200%;
+    }
+
+    .cast a p {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    .section-cast .col {
+        width: 100%;
+        margin: 0 0.5% 1% .5%;
+    }
+
+    .cast {
+        width: 60%;
+        margin-left: 20%;
+    }
+
+    h1 {
+        font-size: 250%;
+    }
+
+    .tagline {
+        font-size: 100%;
+    }
+}
+
+@media only screen and (max-width: 597px) {
+    body {font-size: 17px;}
+    .row {margin: 0 3%;}
+
+    video {width: 90%;}
+
+    
+}
+
+@media only screen and (max-width: 480px) {
+    section {padding: 20px 0;}
+    body {font-size: 15px;}
+
+    .tagline {
+        display: none;
+    }
+
+    .section-concerts p {   
+        font-size: 120%;
+    }
+
+    video {width: 99%;}
+
+    .cast {
+        width: 80%; 
+        margin-left: 10%;
+    }
+
+    .logo {
+        height: 30px;
+        margin-top: 35px;   
+
+    }
+
+    h1 {
+        font-size: 220%;
+    }
+
+}
+
+
